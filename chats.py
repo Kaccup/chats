@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-bot = telebot.TeleBot('1867813322:AAGNgvxwmPUOjHVQC6z2bYDJbC717T4vlF0')
+bot = telebot.TeleBot('qwer')
 
 @bot.message_handler(commands=['start'])
 def start(message):
